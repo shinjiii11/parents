@@ -1,0 +1,52 @@
+section{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-content:center;
+background-color: rgb(252, 251, 251);
+}
+#parent{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    gap: 2%;
+}
+.child{
+height: 100%;
+width: 50%;
+}
+.one{
+    background-color: rgb(245, 2, 2);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.two{
+    background-color: rgb(9, 32, 235);
+    display: flex;
+    justify-content: end;
+}
+.oneone{
+    height: 50%;
+    width: 50%;
+    background-color: violet;
+    
+}
+.twotwo{
+    height: 50%;
+    width: 50%;
+    background-color: orange; 
+    
+}
+
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.threethree{
+    width: 25%;
+    height: 50%;
+    background-color: rgb(175, 117, 29)
+}
